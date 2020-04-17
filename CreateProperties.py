@@ -21,9 +21,9 @@ def ExtractProxyProperties(result):
 
             ApigeeArtifactName = xmlfile.split('apiproxy')[1]
             ApigeeArtifactName = 'apiproxy' + ApigeeArtifactName
-            print(ApigeeArtifactName)
+            #print(ApigeeArtifactName)
 
-            print("PropFile = "+xmlfile)
+
             xmlTree = ET.parse(xmlfile)
             XMLRoot = xmlTree.getroot()
             L1index = 1
