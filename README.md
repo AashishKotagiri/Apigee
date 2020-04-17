@@ -59,7 +59,7 @@ CFG => apiproxy\policies\OauthSpikeArrest.xml Identifier[1] From | request.heade
 
 
 # What Did we achieve...
-  ## We have updated the proxy configuration without any GUI support, if im an admin who needs to reconfigure same value to 100's of proxies this utility might come in handy, provided the policy name is standardised across all proxies. Im sure you can think of other uses for it.
+  ## We have updated the proxy configuration without any GUI support, if im an admin who needs to reconfigure a parameter before deployment or apply same value to 100's of proxies this utility might come in handy, provided the policy name is standardised across all proxies. Im sure you can think of other uses for it.
  
  
  Known Bugs and points to note.
